@@ -1,0 +1,10 @@
+{
+  "domain": "neptune_apex_classic",
+  "name": "Neptune Apex Classic",
+  "codeowners": ["@csammis"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://csammisrun.net",
+  "iot_class": "local_polling",
+  "requirements": ["neptune-apex-classic==0.1.0"]
+}

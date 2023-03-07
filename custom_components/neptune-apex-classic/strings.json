@@ -1,0 +1,21 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configuration",
+        "description": "Be sure that \"XML Access\" is enabled on your Apex before continuing!",
+        "data": {
+          "host": "Hostname",
+          "name": "Friendly name for this Apex",
+          "username": "Controlling outlets requires authenticated access to the Apex"
+        }
+      }
+    },
+    "error": {
+      "status-not-found": "status.xml not found - is the Apex reachable and is \"XML Access\" enabled?"
+    },
+    "abort": {
+      "already-configured": "This Apex is already configured in Home Assistant."
+    }
+  }
+}
